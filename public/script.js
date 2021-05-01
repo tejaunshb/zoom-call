@@ -1,8 +1,8 @@
 const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 const myPeer = new Peer(undefined, {
-    secure: true, 
-    host: 'teja-call.herokuapp.com/',   
+    secure: false, 
+    host: '/',   
     port: "8001",
 });
 const peers = {};
